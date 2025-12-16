@@ -5,7 +5,7 @@ import IntroText from './IntroText';
 function Hero({ menuOpen }) {
   return (
     <Element name="home">
-      <section className="bg-[url('banner.jpg')] bg-cover bg-center h-[9%] md:h-64 p-10 md:px-10 md:py-70 xl:p-70 w-full grid place-content-center">
+      <section className="bg-[url('/banner.jpg')] bg-cover bg-center h-[9%] md:h-64 p-10 md:px-10 md:py-70 xl:p-70 w-full grid place-content-center">
         <button
           onClick={menuOpen}
           className="fixed right-4 top-4 z-40 bg-[#80889077] py-2 px-[15px] rounded-sm cursor-pointer block lg:hidden transform transition-transform duration-800 ease-in-out backdrop-blur-md  border border-white/10"
