@@ -6,7 +6,8 @@ import path from 'node:path';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/portfolio/',
+  base: '/',
+  //base: '/portfolio/',
 
   //configure for react theme switch animation
   resolve: {
