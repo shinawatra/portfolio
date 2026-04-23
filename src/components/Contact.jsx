@@ -117,7 +117,7 @@ function Contact() {
                 skills
               </p>
               <a
-                href="/Ade-new resume.pdf"
+                href="/Ade-resume.pdf"
                 target="_blank"
                 className="group flex items-center gap-2 mt-4 bg-blue-600 dark:bg-linear-to-br dark:from-[#60a5fa] dark:to-[#3b82f6] text-white font-semibold rounded-xl w-full lg:w-1/2 justify-center py-3 px-6 shadow-lg shadow-blue-500/30 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/40 hover:-translate-y-0.5"
               >
