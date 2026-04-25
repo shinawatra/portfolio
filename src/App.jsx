@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 import Services from './components/Services';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   useEffect(() => {
     function updateNav() {
