@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 import Services from './components/Services';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     function updateNav() {
@@ -47,3 +47,10 @@ function App() {
 }
 
 export default App;
+
+// {isOpen && (
+//           <div
+//             className="fixed inset-0 bg-black/50 z-40 lg:hidden"
+//             onClick={() => setIsOpen(false)}
+//           />
+// )}

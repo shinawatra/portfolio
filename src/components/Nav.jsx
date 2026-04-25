@@ -52,7 +52,7 @@ function Nav({ setIsOpen }) {
           duration={100}
           offset={-70}
           onClick={() => {
-            handleClick(link, event), handleNavClick();
+            (handleClick(link, event), handleNavClick());
           }}
           className={`flex lg:flex-row-reverse 2xl:flex-row items-center justify-between lg:justify-start lg:gap-5 2xl:gap-0 2xl:justify-between px-7 py-4 transition-all duration-300 -mx-7 cursor-pointer
         ${

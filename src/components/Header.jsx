@@ -33,7 +33,7 @@ function Header({ isOpen, setIsOpen }) {
         <Nav setIsOpen={setIsOpen} />
       </section>
 
-      <aside className="flex justify-center gap-6">
+      <aside className="flex justify-center gap-6 mb-7 md:mb-30 lg:mb-0">
         <a href="https://x.com/Shinawatra99" target="_blank">
           <FaXTwitter className="text-gray-900 dark:text-[#9fb6b3] hover:text-blue-600 dark:hover:text-white" />
         </a>
